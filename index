@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pytanie o Walentynki</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Czy chcesz być moją Walentynką?</h1>
+    <form id="valentineForm">
+        <button type="button" onclick="giveAnswer('Tak')" style="margin-right: 20px;">Tak</button>
+        <button type="button" id="noButton" onmouseover="hideButtonAndShowMessage()" onmouseleave="showButtonAndHideMessage()">Nie</button>
+    </form>
+    <div id="response"></div>
+    <div id="message" class="hidden">Nie wygłupiaj się!</div> <!-- Dodajemy element dla komunikatu -->
+    <div id="heart" class="hidden">❤️<br><span>W takim razie środę spędzamy razem i buziak</span></div> <!-- Dodajemy element dla serca -->
+</div>
+
+<script src="script.js"></script> <!-- Dołączamy plik JavaScript -->
+</body>
+</html>
