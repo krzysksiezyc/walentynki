@@ -1,0 +1,83 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f7e6e6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #ff66b3;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #888;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff99cc;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(to bottom right, #ff99cc, #ff66b3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+button:hover {
+    background-color: #ff66b3;
+}
+
+#answer {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#response {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#noButton {
+    transition: transform 0.3s ease;
+}
+
+#fireworks {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+#heart {
+    font-size: 100px;
+    color: red;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.hidden {
+    display: none;
+}
+#message {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: opacity 0.5s;
+}
+#heart span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
